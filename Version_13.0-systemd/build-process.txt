@@ -1,0 +1,14 @@
+$ cd <location of the scripts>
+$ export LFS=/mnt/lfs
+$ bash 00-root.sh
+$ bash /mnt/lfs/01-lfs.sh
+$ bash $LFS/lfs-cross.sh
+$ exit
+$ exit
+$ bash 02-root.sh
+$ bash 03-chroot.sh
+$ bash /lfs-chroot.sh
+$ bash 04-chroot.sh
+$ bash /lfs-system.sh
+$ bash 05-root.sh
+$ bash /lfs-final.sh
